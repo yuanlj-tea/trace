@@ -40,7 +40,7 @@ trait SpanStarter
             $child = $tracer->startSpan($name, $option);
             $child->setTag(SPAN_KIND, $kind);
 
-            return $root;
+            return $child;
         }
     }
 
