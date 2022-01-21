@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2cba3ee3c06654dd95a94fc70baa844d",
+    "content-hash": "63419daebeb3456a2e46a9e303aae1ff",
     "packages": [
         {
             "name": "jonahgeorge/jaeger-client-php",
-            "version": "dev-master",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonahgeorge/jaeger-client-php.git",
@@ -40,7 +40,6 @@
                 "squizlabs/php_codesniffer": "3.*",
                 "symfony/polyfill-php73": "^1.10"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -296,14 +295,12 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "jonahgeorge/jaeger-client-php": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }

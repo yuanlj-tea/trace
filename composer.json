@@ -21,6 +21,6 @@
     ],
     "require": {
         "php": ">=7.1",
-        "jonahgeorge/jaeger-client-php": "dev-master"
+        "jonahgeorge/jaeger-client-php": "^1.3"
     }
 }
